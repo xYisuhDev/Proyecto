@@ -1,0 +1,37 @@
+@startuml Ingenieria-Directa
+
+class Cliente {
+  -nombre: String
+  -email: String
+  -direccion: String
+}
+
+class Pedido {
+  -cliente: Cliente
+  -productos: ArrayList<Producto>
+  --
+  +agregarProducto(p: Producto): void
+  +calcularTotal(): double
+  +mostrarResumen(): void
+}
+
+class Producto {
+  -nombre: String
+  -precio: double
+  --
+  +toString(): String
+}
+
+class ProductoDigital {
+  +calcularPrecioFinal(): double
+}
+
+class ProductoFisico {
+  -costeEnvio: double
+  --
+  +calcularPrecioFinal(): double
+}
+
+Pedido *-- Cliente
+Pedido o-- Producto
+@enduml

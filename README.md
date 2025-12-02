@@ -5,7 +5,7 @@ Hay dos carpetas: una con el código que escribí siguiendo el UML (`Ingenieria-
 ## Qué necesito
 
 - Tener Java instalado (cualquier JDK 11+ vale).
-- Abrir una consola en `...\Practica-6.0`.
+- Abrir una consola en `...\Proyecto`.
 
 ## Cómo lo pruebo
 

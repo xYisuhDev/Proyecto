@@ -1,4 +1,4 @@
-# Práctica 6.0 – Sistema de pedidos
+# Proyecto – Sistema de pedidos
 
 Hay dos carpetas: una con el código que escribí siguiendo el UML (`Ingenieria-directa`) y otra con la versión que tuve que reconstruir (`Ingenieria-inversa`). Las dos hacen lo mismo: manejar clientes, pedidos y productos físicos o digitales.
 
